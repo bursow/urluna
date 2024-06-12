@@ -1,3 +1,5 @@
+LICENSE
+README.md
 setup.py
 urluna/__init__.py
 urluna/urluna.py

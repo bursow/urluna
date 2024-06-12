@@ -1,8 +1,9 @@
 Metadata-Version: 2.1
 Name: urluna
-Version: 1.0
+Version: 1.1
 Summary: A flexible array operations , and simple machine learning library
 Home-page: https://github.com/bursow/urluna
 Author: Burhan
 Author-email: burhan.sogutt@gmail.com
 License: MIT
+License-File: LICENSE
