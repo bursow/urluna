@@ -1,4 +1,41 @@
+# Urluna
 
+Urluna is a Python library for flexible array operations. It provides useful classes and functions for data preprocessing, machine learning, and various mathematical operations.
+
+## Features
+
+- Flexible array filling and processing
+- Various operators
+- Machine learning functions
+- Data preprocessing tools
+
+This library is designed to perform flexible array operations and basic matrix operations. Its functionalities include creating matrices of different types, performing operations between matrices, multiplying matrices, taking their inverses, and more.
+
+Here are the main features of Urluna:
+
+- Flexible Array Creation: Create 2D arrays filled with a specific value, random values, or random numbers within a specified range.
+- Sequential Random Array Creation: Create a 2D array filled with random numbers but sorted in ascending order within each row.
+- Range Array Creation: Create a 2D array filled with numbers within a specific range.
+- Zero and One Array Creation: Create 2D arrays filled with zeros or ones of a specified size.
+- Identity Matrix Creation: Create an identity matrix of a specified size.
+- Various Array Operations: Perform addition, subtraction, and Hadamard product (element-wise multiplication) between arrays.
+- Matrix Operations: Transpose matrices, perform multiplication and inversion between matrices, and more.
+- Machine Learning Algorithms: Includes functions for Linear Regression, Random Forest, Decision Tree, and other algorithms.
+- Data Preprocessing Functions: Provides tools for preprocessing data.
+
+This library is especially designed to facilitate matrix and array operations commonly used in scientific computing, data analysis, and machine learning.
+Installation
+
+To install Urluna and learn the basics, follow these steps:
+
+```bash
+pip install urluna
+
+```
+## Usage
+
+```bash
+from urluna import *  # from urluna import Flex, Operator, MachineLearning, Preprocessing
 
 # Flex Class
 __________________________________________________________________________
@@ -167,23 +204,26 @@ print(result)
 #  [0.5 0.5 0.5]]
 _______________________________________________________________________________
 
-NOTE:
+```
+
+### Note:
 
 Usage for Preprocessing and Machine Learning will be updated soon.
 
-## Contributing
+### Contributing
 
 To contribute, please create a pull request or open an issue.
 
-## License
+### License
 
 This project is licensed under the MIT license. For more information, see the LICENSE file.
 
+_________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
 # Urluna
 
-urluna, esnek dizi operasyonları için bir Python kütüphanesidir. Bu kütüphane, veri ön işleme, makine öğrenimi ve çeşitli matematiksel işlemler için kullanışlı sınıflar ve fonksiyonlar sunar.
+Urluna, esnek dizi operasyonları için bir Python kütüphanesidir. Bu kütüphane, veri ön işleme, makine öğrenimi ve çeşitli matematiksel işlemler için kullanışlı sınıflar ve fonksiyonlar sunar.
 
 ## Özellikler
 
@@ -191,9 +231,11 @@ urluna, esnek dizi operasyonları için bir Python kütüphanesidir. Bu kütüph
 - Çeşitli operatörler
 - Makine öğrenimi fonksiyonları
 - Veri ön işleme araçları
+
 Bu kütüphane, esnek dizi işlemleri ve temel matris işlemlerini gerçekleştirmek için tasarlanmıştır. İşlevsellikler arasında, farklı türlerde matrisler oluşturmayı, matrisler arasında işlemler gerçekleştirmeyi, matrisleri çarpmayı, tersini almayı ve daha fazlasını içerir.
 
-İşte urluna'nın ana özellikleri:
+İşte Urluna'nın ana özellikleri:
+
 - Esnek Dizi Oluşturma: Belirli bir değerle doldurulmuş, rastgele veya belirli bir aralıktaki rastgele sayılarla doldurulmuş 2D diziler oluşturabilirsiniz.
 - Sıralı Rastgele Dizi Oluşturma: Rastgele sayılarla doldurulmuş, ancak her satırda sıralı olan bir 2D dizi oluşturabilirsiniz.
 - Aralık Dizi Oluşturma: Belirli bir aralıktaki sayılarla doldurulmuş bir 2D dizi oluşturabilirsiniz.
@@ -207,12 +249,14 @@ Bu kütüphane, esnek dizi işlemleri ve temel matris işlemlerini gerçekleşti
 
 ## Kurulum
 
-Urluna'yı kurmak için ve temelleri öğrenmek için aşağıdaki adımları izleyin:
+Urluna'yı kurmak için aşağıdaki adımları izleyin:
 
 ```bash
-pip install urluna ## Kurulum
+pip install urluna
+```
 
-____________________________Usage_____________________________
+## Kullanım
+```bash
 
 from urluna import * // from urluna import Flex, Operator, MachineLearning, Preprocessing
 
@@ -384,15 +428,16 @@ print(result)
 #  [0.5 0.5 0.5]]
 _______________________________________________________________________________
 
-NOT:
+```
+### Not:
 
 Preprocessing ve Machnine learning için kullanım yakın zamanda güncellenecektir.
 
-Katkıda Bulunma
+### Katkıda Bulunma
 
 Katkıda bulunmak için lütfen bir pull request oluşturun veya bir issue açın.
-Lisans
 
+### Lisans
 Bu proje MIT lisansı ile lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına bakın.
 
 
